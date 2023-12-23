@@ -13,6 +13,7 @@ class Post(TimeStampModel):
     thumbnail = models.ImageField(null=True, blank=True)
     body = models.TextField()
     slug = models.SlugField(default = '', unique=True, max_length=120)
+    # Will add tags functionality later
     # tags = models.ManyToManyField('Tag', related_name='blogs')
 
     def __str__(self) -> str:
@@ -25,4 +26,4 @@ class Post(TimeStampModel):
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):
-        return reverse_lazy('post_detail', kwargs={'pk': self.pk})
+        return reverse_lazy('post_detail', kwargs={'slug':self.slug})
