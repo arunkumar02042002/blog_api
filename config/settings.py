@@ -46,9 +46,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
-    'dj_rest_auth',
-    'dj_rest_auth.registration',
+    'allauth.socialaccount', # For social accounts - Facebook, Google, Login
+    'dj_rest_auth', # For log in, log out, and password reset and confirm API endpoints.
+    'dj_rest_auth.registration', # for Sign Up Endpoint
 
     #local apps
     'posts',
@@ -56,6 +56,8 @@ INSTALLED_APPS = [
 
 # Not sending the email instead outputing it to the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Incase of hosting multiple site within the same django project
 SITE_ID = 1
 
 MIDDLEWARE = [
