@@ -50,8 +50,8 @@ The Above endpoints will look something like this.
 ![http://127.0.0.1:8000/swagger/](images_for_readme/image.png)
 ![http://127.0.0.1:8000/swagger/](images_for_readme/image-1.png)
 
-![http://127.0.0.1:8000/redoc/](image.png)
-![http://127.0.0.1:8000/redoc/](image-1.png)
+![http://127.0.0.1:8000/redoc/](images_for_readme/image-3.png)
+![http://127.0.0.1:8000/redoc/](images_for_readme/image-4.png)
 
 
 Note: *I'll add the filteration, paginations, tagging features soon.*
