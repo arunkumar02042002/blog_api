@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount', # For social accounts - Facebook, Google, Login
     'dj_rest_auth', # For log in, log out, and password reset and confirm API endpoints.
     'dj_rest_auth.registration', # for Sign Up Endpoint
+    'drf_yasg', # For doucmentation
 
     #local apps
     'posts',
