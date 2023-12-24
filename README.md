@@ -45,6 +45,14 @@ python manage.py runserver
 
 5. Access the Application: Open your web browser and navigate to http://127.0.0.1:8000/swagger/ or http://127.0.0.1:8000/redoc/ to access the complete documention and enpoints.
 
+The Above endpoints will look something like this.
+
+![http://127.0.0.1:8000/swagger/](images_for_readme/image.png)
+![http://127.0.0.1:8000/swagger/](images_for_readme/image-1.png)
+
+![http://127.0.0.1:8000/redoc/](image.png)
+![http://127.0.0.1:8000/redoc/](image-1.png)
+
 
 Note: *I'll add the filteration, paginations, tagging features soon.*
 
